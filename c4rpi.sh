@@ -10,7 +10,7 @@ rpi_list='
           alarm@192.168.0.X00
           alarm@192.168.0.X01
           alarm@192.168.0.X02
-          alarm@192.168.0.X03
+          alarm@192.168.0.X04
 	  '
 rpi_count=$(wc -w <<< $rpi_list)
 rpi_array=($rpi_list)
